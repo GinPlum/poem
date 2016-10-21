@@ -1,0 +1,20 @@
+.mint-loadmore-spinner.mint-spinner-fading-circle {
+    position: relative;
+    top: -25px;
+}
+.mint-loadmore-text{ 
+    position: relative;
+    top: -25px;
+    color: #808080;
+    font-size: 50px;
+}
+.mint-loadmore-bottom{
+    margin-bottom: -150px;
+    .mint-loadmore-spinner,.mint-spinner-fading-circle{
+     margin-top:50px;
+ }
+ .mint-loadmore-text{
+     display: block;
+     margin-top:50px;
+ }
+}

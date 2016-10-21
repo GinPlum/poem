@@ -1,0 +1,14 @@
+.menu-enter-active{
+    animation: menuin .5s
+}
+.menu-leave-active{
+    animation: menuout .5s
+}
+@keyframes menuin {
+    0%{transform: translateX(-100%)}
+    100%{transform: translateX(0%)}
+}
+@keyframes menuout {
+    0%{transform: translateX(0%)}
+    100%{transform: translateX(-100%)}
+}

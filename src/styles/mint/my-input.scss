@@ -1,0 +1,38 @@
+$tea : #cead53;
+.mint-cell{
+    height: 220px;
+    background-color: #fdfbf8;
+    &:nth-of-type(1){
+        input{
+            background: {
+                image:url(../assets/img/picon.png);
+                repeat:no-repeat;
+                position: left center;
+                size: 10%;
+            }
+        }
+    }
+    &:nth-of-type(2){
+        input{
+            background: {
+                image:url(../assets/img/licon.png);
+                repeat:no-repeat;
+                position: left center;
+                size: 10%;
+            }
+        }
+    }
+    &-value{
+         input{
+            height: 220px;
+            font-size: 60px;
+            color: #808080;
+            border-bottom: 4px solid #d9d4ce;
+            background-color: #fdfbf8;
+            text-indent: 140px;
+            &:focus {
+                 border-color:$tea;
+            }
+         }
+    }
+}
